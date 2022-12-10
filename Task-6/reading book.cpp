@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 
-	long long num_days, timeToRe,sum=0,count=0,ind=1;
+	long long n, t,sum=0,count=0,ind=1;
 	cin >> n >> t;
 
 	long long* arr = new long long[n];
