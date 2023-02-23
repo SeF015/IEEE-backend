@@ -1,4 +1,0 @@
-/*https://www.hackerrank.com/challenges/revising-the-select-query-2/problem?isFullScreen=true*/
-select distinct CITY
-from STATION
-where MOD(ID, 2) = 0;
