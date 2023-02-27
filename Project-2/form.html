@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employee survey</title>
+  </head>
+  <body>
+    <h1>Employee Interests Survey form</h1>
+    <form action="tst4.html" method="post">
+      <fieldset>
+        <legend>
+           Employee Information:
+        </legend>
+        <label>
+          Employee Name :
+          <input type="text" name="Employee name" size="30" maxlength="100" placeholder="Enter employee name" />
+        </label>
+        <br />
+        <label>
+          Department Name:
+        <input type="text" name="Department name" size="30" maxlength="35" placeholder="Enter department name" />
+      </label>
+        <p>
+          <label for="about you">
+              tell us about yourself:
+          </label>
+          <br />
+          <textarea name="information" rows="10" cols="40" placeholder="Write some information" id="about you">
+          </textarea>
+        </p>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>
+           Employee Interests:
+        </legend>
+        <p>
+          Do you exercise at home?
+          <br />
+        <label>
+           <input type="radio" name="exercise" value="yes" />
+           Yes
+        </label>
+        <label>
+          <input type="radio" name="exercise" value="no" />
+          NO
+        </label>
+        </p>
+        <br />
+        <p>
+          How do you like to read about your favorite topics?
+        <br />
+          <input type="checkbox" name="like" value="books" /> Books
+          <input type="checkbox" name="like" value="online resources" /> Online resources
+          <input type="checkbox" name="like" value="phone apps" /> Phone apps
+          <input type="checkbox" name="like" value="magazines" /> Magazines
+        </p>
+        <br />
+        <p>
+          <label for="movies">
+            What genre of movies do you like?
+          </label>
+          <select name="genre" id="movies">
+            <option value="comedy">Comedy</option>
+            <option value="action">Action</option>
+            <option value="drama">Drama</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="Science fiction">Science fiction</option>
+          </select>
+        </p>
+      </fieldset>
+      <br />
+         <input type="submit" value="Submit form" />
+    </form>
+  </body>
+</html>
